@@ -14,7 +14,7 @@ def hitungSegitiga(window):
     groupbox = QGroupBox("Menghitung Luas Segitiga", window)#membuat grupbox
     labelRusuk = QLabel("Panjang Alas Segitiga: ")#membuat label 
     global rusuk#agar variabel suhu bisa diakses fungsi lain
-    labelRusuk2 = QLabel("Panjang Tinggi Segitiga: ")#membuat label dengan nama
+    labelRusuk2 = QLabel("Panjang Tinggi Segitiga: ")#membuat label dengan nama label rusuk2
     # Mendefinisikan agar variabel suhu bisa diakses fungsi lain/membuat variabel suhu tidak menjadi lokal lagi
     global rusuk2
     rusuk = QLineEdit()#widget inputan
@@ -50,7 +50,7 @@ def segitiga():
 
 def Tampil(window):
     groupbox = QGroupBox("Hasil Operasi", window)# Membuat Grupbox
-    labelDatar = QLabel("Luas Segitiga: ")#membuat label dengan nama labelkubus
+    labelDatar = QLabel("Luas Segitiga: ")#membuat label dengan nama labeldatar
     global hasilDatar
     #widget inputan
     hasilDatar = QLineEdit()
